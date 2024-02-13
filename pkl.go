@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	caddyconfig.RegisterAdapter("toml", Adapter{})
+	caddyconfig.RegisterAdapter("pkl", Adapter{})
 }
 
 // Adapter converts a pkl Caddy configuration to JSON
